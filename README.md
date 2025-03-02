@@ -27,7 +27,7 @@ pip install -r requirements.txt
 The script can be run with various command-line arguments to customize its behavior:
 
 ```bash
-python stock_trend_prediction.py [OPTIONS]
+python StockPricePredictor.py [OPTIONS]
 ```
 
 ### Options
