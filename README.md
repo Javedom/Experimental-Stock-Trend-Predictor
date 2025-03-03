@@ -46,6 +46,14 @@ python StockPricePredictor.py [OPTIONS]
 
 ```bash
 python stock_trend_prediction.py --tickers AAPL MSFT GOOG --start-date 2018-01-01
+
+Important Considerations for Nasdaq Helsinki Stocks:
+
+Ticker Format: You must use the correct Yahoo Finance format for Helsinki stocks (with the .HE suffix). For example:
+
+Nokia = NOKIA.HE
+Stora Enso = STERV.HE
+Kone = KNEBV.HE
 ```
 
 #### Use an existing model to make predictions only
